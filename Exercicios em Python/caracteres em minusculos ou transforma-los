@@ -1,0 +1,15 @@
+//Faça um programa que verifique se todos os caracteres de um valor armazenado em uma váriável estão em minúsculo, 
+se não estiver em minúsculo, o programa deve pergutar o usuário se deseja converter para minúsculo(sim ou não).
+
+
+
+carac = input("Digite uma palavra: ")
+x = carac.islower()     #Retorna Verdadeiro se todos os caracteres na string forem minúsculos  
+y = carac.lower()       #Converte uma string em minusculas
+
+if x == False:
+    resp = input("Deseja que sejam convertidos? ")
+    if resp != "sim":
+        print("ok")
+    else:
+        print(y)
