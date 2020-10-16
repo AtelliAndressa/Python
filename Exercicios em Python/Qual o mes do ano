@@ -1,0 +1,32 @@
+Faça um programa que receba números de 1 a 12 e imprima por extenso o nome do mês referente aquele número.A")
+
+mes = int(input("Digite o Mês desejado por forma numérica: ")) 
+
+if 1:
+    print("Janeiro")
+elif 2:
+    print("Fevereiro")
+elif 3:
+    print("Março")
+elif 4:
+    print("Abril")
+elif 5:
+    print("Maio")
+elif 6:
+    print("Junho")
+elif 7:
+    print("Julho")
+elif 8:
+    print("Agosto")
+elif 9:
+    print("Setembro")
+elif 10:
+    print("Outubro")
+elif 11:
+    print("Novembro")
+elif 12:
+    print("Dezembro")
+else:
+    print("Esse mês não existe, utilize de 1 até 12.")
+
+    
