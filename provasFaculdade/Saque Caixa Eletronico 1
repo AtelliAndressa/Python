@@ -1,0 +1,41 @@
+valor = int(input('Digite o valor a ser sacado R$: ))
+//notas de 200, 100, 50, 20, 10, 5,2,1) //
+
+duzentos = int(valor / 200)
+sobraduzentos = valor % 200
+if duzentos > 0:
+    print("você recebeu {} notas de R$ 200.00".format(duzentos))
+
+cem = int(sobraduzentos / 100)
+sobracem = sobraduzentos % 100
+if cem > 0:
+    print("você recebeu {} notas de R$ 100.00".format(cem))
+
+cinquenta = int(sobracem / 50)
+sobracinquenta = sobracem % 50
+if cinquenta > 0:
+    print("você recebeu {} notas de R$ 50.00".format(cinquenta))
+
+vinte = int(sobracinquenta / 20)
+sobravinte = sobracinquenta % 20
+if vinte > 0:
+    print("você recebeu {} notas de R$ 20.00".format(vinte))
+
+dez = int(sobravinte / 10)
+sobradez = sobravinte % 10
+    print("você recebeu {} notas de R$ 10.00".format(dez))
+
+cinco = int(sobradez / 5)
+sobracinco = sobradez % 5
+    print("você recebeu {} notas de R$ 5.00".format(cinco))
+
+dois = int(sobracinco / 2)
+sobradois = sobracinco % 2
+if dois > 0:
+    print("você recebeu {} notas de R$ 2.00".format(dois))
+
+um = int(sobradois / 1)
+if um > 0:
+    print("você recebeu {} notas de R$ 1.00".format(um))
+
+
