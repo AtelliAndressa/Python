@@ -1,0 +1,7 @@
+//A partir de um número, determine se um determinado ano é bissexto.
+
+ano = int(input("Digite um ano: "))
+if ano % 100 != 0 and ano % 4 == 0 or ano % 400 == 0:
+    print("O ano é Bissexto.")
+else:
+    print("O ano não é bissexto.")
