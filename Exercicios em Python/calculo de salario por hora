@@ -1,0 +1,25 @@
+//Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês e imprima o valor total.
+#A partir do valor total, faça os seguinte calculos:
+#    Se o valor for inferior a R$ 1000,00, adicione R$ 100,00 de salário familia.
+#    Se o valor for maior R$ 2500,00 desconte 8% IR
+#    Se o valor for maior R$ 3500,00 desconte 12% IR
+#    Se o valor for maior R$ 5000,00 desconte 20% IR
+
+
+
+a = float(input("Qual o valor ganho por hora? "))
+b = float(input("Qual o número de horas trabalhadas? "))
+total = a * b
+
+if total <= 1000.00:
+    total + 100.00
+    print("O valor ganho foi R$ ", format(total, '.2f'))
+elif total >= 2500.00 and total < 3500.00:
+    inss8 = total - ((total * 8) /100)
+    print("O salário ganho líquido foi de R$ ", format(inss8, '.2f'))
+elif total >= 3500.00 and total < 5000.00:
+    inss12 = total - ((total * 12) /100)
+    print("O salário ganho líquido foi de R$ ", format(inss12, '.2f'))
+elif total >= 5000.00:
+    inss20 = total - ((total * 20) /100)
+    print("O salário ganho líquido foi de R$ ", format(inss20, '.2f'))
