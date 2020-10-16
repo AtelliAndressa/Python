@@ -1,0 +1,8 @@
+//Faça um Programa que pergunte a base e a latura de um triângulo e em seguida calcule a sua área.
+
+
+
+alt = int(input("Qual a Altura do triângulo em cm? "))
+bas = int(input("Qual a base do triângulo em cm? "))
+area = (bas * alt) / 2
+print("A área do triângulo possui ", round(area), "cm.")
