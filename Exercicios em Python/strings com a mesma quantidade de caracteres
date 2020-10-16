@@ -1,0 +1,10 @@
+//Faça um prog rama que verifique se duas variáveis string tem a mesma quantidade de caracteres.
+
+x = input("Digite uma palavra: ")
+y = input("Digite outra palavra: ")
+if (len(x)) == (len(y)):
+    print("A quantidade de caracteres é igual.")
+else:
+    print("Não possui a mesma quantidade de caractere. Tente outra vez.")
+
+    
