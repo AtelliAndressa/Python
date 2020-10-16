@@ -1,0 +1,6 @@
+O que é a liguagem de maquina?
+São códigos estruturados que usados de forma lógica faz processador absorver e realizar uma ação.
+
+Falando especificamente do Python, como é feito essa transformação?
+o código fonte nessa linguagem é executado por um interpretador, que em seguida é executado pelo sistema operacional ou processador.
+
