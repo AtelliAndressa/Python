@@ -1,0 +1,11 @@
+//Faça um programa que, dado uma frase, verifique se uma determinada palavra é citada pelo menos uma vez nesta frase.
+
+
+
+frase = ("Python é uma linguagem especial!")
+x = frase.count("especial")      #count significa contador
+
+if x > 0:
+    print("A palavra aparece na frase ", x, "uma vez.")
+else:
+    print("Não existe essa palavra na frase.")
