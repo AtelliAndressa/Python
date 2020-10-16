@@ -1,0 +1,8 @@
+// Faça um programa que solicite uma data no formato DD/MM/AAAA. E imprima a mensagem 'Adamantina, 
+DD de MM de AAAA
+
+
+
+dia, mês, ano = input ('Digite uma Data no formato (dd / mm / aaaa): ') .split ('/')
+
+print('Adamantina, dia % s de % s de % s'% (dia,mês, ano))
