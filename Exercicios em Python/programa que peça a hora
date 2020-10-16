@@ -1,0 +1,12 @@
+//Faça um programa que solicite a hora no formato HH:MM, se o horário for antes do meio dia imprima 'Bom Dia!', 
+se for entre meio dia e seis da tarde imprima 'Boa Tarde!', se for após as seis da tarde imprima 'Boa Noite!' 
+
+
+hora = input("Digite a hora: ")
+
+if int(hora[:2]) >= 0 and int(hora[:2]) < 12:
+    print("Bom dia")
+elif int(hora[:2]) >= 12 and int(hora[:2]) < 18:
+    print("Boa tarde")
+elif int(hora[:2]) >= 18 and int(hora[:2]) < 24:
+    print("Boa noite")
