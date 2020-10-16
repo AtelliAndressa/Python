@@ -1,0 +1,45 @@
+valor = int(input('Digite o valor do saque R$: ))
+
+resto = int(saque / 200)
+if resto > 0:
+    saque = saque % 200
+    print('Foram {} notas de R$ 200,00'.format(resto))
+
+resto = int(saque /100)
+if resto > 0:
+    saque = saque % 100
+    print('Foram {} notas de R$ 100,00'.format(resto))
+
+resto = int(saque /50)
+if resto > 0:
+    saque = saque % 50
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+resto = int(saque /20)
+if resto > 0:
+    saque = saque % 20
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+resto = int(saque /10)
+if resto > 0:
+    saque = saque % 10
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+resto = int(saque /5)
+if resto > 0:
+    saque = saque % 5
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+resto = int(saque /2)
+if resto > 0:
+    saque = saque % 2
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+resto = int(saque /1)
+if resto > 0:
+    saque = saque % 1
+    print('Foram {} notas de R$ 50,00'.format(resto))
+
+    
+
+
