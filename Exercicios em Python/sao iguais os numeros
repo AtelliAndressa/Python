@@ -1,0 +1,9 @@
+//Faça um programa que verifique se 2 variáveis numericas tem o mesmo conteúdo.
+
+
+x = input("Digite um numero: ")
+y = input("Digite um numero: ")
+if x==y:
+    print("O conteúdo é igual.")
+else:
+    print("O Conteúdo é diferente.")
