@@ -1,0 +1,17 @@
+//Aprimorar o software desenvolvido para o João Papo-de-Pescador para controlar o rendimento diário de seu trabalho. 
+# Lembrando que toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado 
+# de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. É necessário adicionar a funcionalidade 
+# em que, no caso de não ultrapassar o peso estabelecido João não precisa pagar a multa alguma.
+
+
+
+
+peso = float(input("Quantos kg pegou de peixe? "))
+excesso = peso - 50
+
+
+if peso > 50:
+    multa = excesso * 4.00
+    print("Você passou ", excesso, "kg do permitido, e por isso pagará a multa no valor de R$ ", format(multa, '.2f')) 
+else:
+    print("você está dentro da pesagem permitida.")
