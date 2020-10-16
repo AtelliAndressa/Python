@@ -1,0 +1,10 @@
+//Faça um programa que solicite ao usuário uma senha e somente valide a senha se ela tiver pelo menor 6 caracteres e tenha letras e numeros.
+
+
+
+senha = input("Digite sua senha ") 
+
+if len(senha) >= 6 and senha.isdigit() == False and senha.isalpha() == False:
+    print("Acesso permitido")
+else:
+    print ("Acesso negado") 
