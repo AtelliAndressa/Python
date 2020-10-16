@@ -1,0 +1,11 @@
+//Faça um programa que solicite ao usuário dois numeros e mostre qual deles é o maior. Se por acaso for iguais,
+mostre a mensagem "Números iguais".
+
+prim = input("Digite o primeiro número: ")
+seg = input("Digite o segundo número: ")
+if (prim > seg):
+    print("O primeiro número é o maior.")
+elif (seg > prim):
+    print("O segundo número é o maior.")
+elif (prim == seg):
+    print("Números iguais.")
