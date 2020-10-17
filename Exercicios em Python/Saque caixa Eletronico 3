@@ -18,27 +18,28 @@ if resto > 0:
 resto = int(saque /20)
 if resto > 0:
     saque = saque % 20
-    print('Foram {} notas de R$ 50,00'.format(resto))
+    print('Foram {} notas de R$ 20,00'.format(resto))
 
 resto = int(saque /10)
 if resto > 0:
     saque = saque % 10
-    print('Foram {} notas de R$ 50,00'.format(resto))
+    print('Foram {} notas de R$ 10,00'.format(resto))
 
 resto = int(saque /5)
 if resto > 0:
     saque = saque % 5
-    print('Foram {} notas de R$ 50,00'.format(resto))
+    print('Foram {} notas de R$ 5,00'.format(resto))
 
 resto = int(saque /2)
 if resto > 0:
     saque = saque % 2
-    print('Foram {} notas de R$ 50,00'.format(resto))
+    print('Foram {} notas de R$ 2,00'.format(resto))
 
 resto = int(saque /1)
 if resto > 0:
     saque = saque % 1
-    print('Foram {} notas de R$ 50,00'.format(resto))
+    print('Foram {} notas de R$ 1,00'.format(resto))
+    
 
     
 
